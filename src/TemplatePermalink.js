@@ -55,7 +55,7 @@ TemplatePermalink.generate = function(
   if (fileExtension === "html") {
     path =
       (dir ? dir + "/" : "") +
-      (filenameNoExt !== "index" && !hasDupeFolder ? filenameNoExt + "/" : "") +
+      (filenameNoExt.toLowerCase() !== "index" && !hasDupeFolder ? filenameNoExt + "/" : "") +
       "index" +
       (suffix || "") +
       ".html";

@@ -534,7 +534,7 @@ Arguments:
       );
       await this._watch();
     } else {
-      console.log("Watching…");
+      console.log("Watching input directory for changes…");
     }
   }
 
@@ -674,7 +674,7 @@ Arguments:
 
     this.watcherBench.finish("Watch");
 
-    console.log("Watching…");
+    console.log("Watching input directory for changes…");
 
     this.watcher = watcher;
 

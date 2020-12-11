@@ -99,7 +99,7 @@ class TemplateRender {
           return;
         }
 
-        if (name === "md") {
+        if (name === "md" || name === "mmd") {
           usingMarkdown = true;
           return;
         }

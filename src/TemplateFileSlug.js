@@ -34,7 +34,7 @@ class TemplateFileSlug {
   getSlug() {
     let rawSlug = this._getRawSlug();
 
-    if (rawSlug === "index") {
+    if (rawSlug.toLowerCase() === "index") {
       return this.dirs.length ? this.dirs[this.dirs.length - 1] : "";
     }
 

@@ -146,6 +146,7 @@ class EleventyExtensionMap {
       this._extensionToKeyMap = {
         ejs: "ejs",
         md: "md",
+        mmd: "md",
         html: "html",
         hbs: "hbs",
         mustache: "mustache",
